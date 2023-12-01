@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+.signup{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: space-between;
+width: 50%;
+margin: 1rem auto;
+border: 2px solid black;
+text-align: center;
+}
+.userdata{
+    display: flex;
+    flex-direction: column;
+}
+.input input{
+    margin: 0.6rem;
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 2px solid #030f33;
+}
+.input input:focus{
+    border: 3px solid #030f33;
+    box-shadow: #0008ff;
+}
+.tandc{
+    height: 20%;
+    margin-top: 2rem;
+}
+.tandc p{
+    line-height: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    margin: 0 0.2rem;
+}
+.tandc p a{
+    width: 50%;
+    margin: 1rem auto;
+    text-decoration: none;
+    color: #330fd3;
+}
+.navigation{
+    width: 40%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.app_link img{
+    width: 40%;
+    margin: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 560px){
+    .signup{
+        width: 90%;
+    }
+    .tandc p{
+        font-size: 0.7rem;
+    }
+}

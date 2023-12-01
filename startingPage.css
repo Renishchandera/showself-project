@@ -1,0 +1,131 @@
+*{  
+    text-align: center;
+    margin: 0;   
+}
+body{
+    background-image: linear-gradient(45deg, #ff002bab, #7700ffaf, #d37b00a9);
+    height: 100vh;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    width: 50%;
+    height: 70%;
+    margin: 1rem auto;
+}
+.logininfo{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 70%;
+border: 2px solid rgb(65, 65, 65);
+margin-bottom: 1rem;
+}
+.logo h2{
+    margin: 1rem 0;
+   font-family: 'pacifico'; 
+    color: rgb(0, 0, 0);
+}
+.logo h3{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+}
+.inputinfo{
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+}
+.inputinfo a{
+    text-decoration: none;
+    color: rgb(54, 54, 228);
+}
+.btn{
+    padding: 0.4rem;
+    width: 50%;
+    background-color: #1672f9;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    transition-duration: 0.2s;
+}
+.btn:hover{
+    box-shadow: 2px 2px rgb(131, 129, 129); 
+}
+.btn:active{
+    background-color: #0f5ed3;
+    box-shadow: 2px 2px rgb(131, 129, 129);
+}
+.input input{
+    margin: 0.6rem;
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 2px solid #030f33;
+}
+.input input:focus{
+    border: 3px solid #030f33;
+    background: linear-gradient(45deg, #ff002bab, #7700ffaf, #d37b00a9);
+}
+.gotosignup {
+    border: 2px solid rgb(65, 65, 65);
+   height: 10%;
+   padding: 1rem;
+    margin-top: 4px;
+}
+.gotosignup button{
+    width: 25%;
+    padding: 0.3rem;
+    background-color: #239bfe;
+    border-radius: 10px;
+   transition-duration: 0.2s;
+    border: none;
+    font-weight: 600;
+}
+.gotosignup button:hover{
+    box-shadow: 2px 2px rgb(131, 129, 129);
+}
+.gotosignup button:active{
+    background-color: #0f5ed3;
+    box-shadow: 2px 2px rgb(131, 129, 129);
+}
+.gotosignup p{
+    line-height: 1.5rem;
+}
+.navigation{
+    width: 40%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.app_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app_link img{
+    width: 40%;
+    margin: 1rem;
+}
+.extra p{
+    font-family: 'pacifico';
+    background-image: linear-gradient(45deg, #ff002bc9, #7700ffe5, #d37b00cb);
+    color: rgb(177, 233, 233);
+    /* border: 1px solid #0f5ed3; */
+}
+
+
+@media screen and (max-width: 560px){
+    .gotosignup button{
+        width: 50%;
+    }
+    .gotosignup{
+        height: fit-content;
+    }
+    .loginform{
+        width: 90%;
+    }
+}
